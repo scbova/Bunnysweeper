@@ -151,7 +151,7 @@ body {
     color: #2a292a;
 }
 
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+@media screen and (max-device-width: 640px) {
     #background {
         transform: scale(0.8);
     }
