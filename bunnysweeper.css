@@ -150,3 +150,41 @@ body {
     font-weight: bold;
     color: #2a292a;
 }
+
+@supports (-webkit-touch-callout: none) {
+    #background {
+        transform: scale(0.8);
+    }
+    
+    #board {
+        transform: scale(0.8);
+    }
+    
+    .cell {
+        transform: scale(0.8);
+    
+        font-size: 80%;
+    }
+    
+    #endPopup {
+        transform: scale(0.8);
+    }
+    
+    .replay {
+        font-size: 80%;
+        
+        transform: scale(0.8);
+    }
+    
+    #carrotCount {
+        transform: scale(0.8);
+    }
+    
+    #carrotLabel {
+        font-size: 80%;
+    }
+    
+    #numCarrots {
+        font-size: 80%;
+    }
+}
