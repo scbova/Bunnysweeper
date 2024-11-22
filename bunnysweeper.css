@@ -151,7 +151,7 @@ body {
     color: #2a292a;
 }
 
-@supports (-webkit-touch-callout: none) {
+screen and (max-device-width: 480px) and (orientation: portrait) {
     #background {
         transform: scale(0.8);
     }
